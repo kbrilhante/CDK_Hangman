@@ -64,7 +64,7 @@ function createLetters() {
         col.className = "col-auto mx-auto my-1";
         divButtons.appendChild(col);
         const btn = document.createElement("button");
-        btn.className = "btn btn-secondary";
+        btn.className = "btn btn-secondary btn-lg btn-letter";
         btn.innerText = letter;
         btn.value = letter;
         btn.onclick = () => {
